@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Meta tag for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Email:</label>
+                <input type="email" id="username" name="username" placeholder="Enter your email">
+                <small class="error-message" id="usernameError"></small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <small class="error-message" id="passwordError"></small>
+            </div>
+            <!-- Bonus Feature: Remember Me Checkbox -->
+            <div class="form-group">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe"> Remember Me</label>
+            </div>
+            <!-- Bonus Feature: Show/Hide Password -->
+            <div class="form-group">
+                <input type="checkbox" id="showPassword">
+                <label for="showPassword"> Show Password</label>
+            </div>
+            <button type="submit">Login</button>
+            <div class="spinner" id="spinner"></div>
+            <div class="api-response" id="apiResponse"></div>
+        </form>
+    </div>
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
