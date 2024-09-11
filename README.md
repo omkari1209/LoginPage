@@ -15,5 +15,6 @@ A simple, responsive login page using HTML, CSS, and JavaScript, integrated with
 - Loading spinner during API calls
 
 ## Demo
+-Live demo link
 https://omkari1209.github.io/LoginPage/
 
